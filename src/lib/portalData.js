@@ -3,7 +3,7 @@ export const fests = [
     id: "ignus",
     name: "IGNUS",
     tagline: "The Desert's Grandest Spectacle",
-    coverImage: "src/assets/amaal2.jpeg",
+    coverImage: "/assets/amaal2.jpeg",
     color: "#811811",
     badge: "Main Fest",
     date: "Feb 15-18",
@@ -13,7 +13,7 @@ export const fests = [
     id: "spandan",
     name: "SPANDAN",
     tagline: "A Symphony of Arts & Culture",
-    coverImage: "src/assets/band2.jpeg",
+    coverImage: "/assets/band2.jpeg",
     color: "#1a3a6b",
     badge: "Cultural",
     date: "Mar 10-12",
@@ -23,7 +23,7 @@ export const fests = [
     id: "vortex",
     name: "VORTEX",
     tagline: "Unleashing Technical Innovation",
-    coverImage: "src/assets/amanraj.jpeg",
+    coverImage: "/assets/amanraj.jpeg",
     color: "#1a4a1a",
     badge: "Technical",
     date: "Apr 05-07",
@@ -92,7 +92,7 @@ export const artists = [
     type: "Playback Singer",
     performing: "Ignus Main Night",
     highlight: true,
-    image: "src/assets/amaal.jpeg",
+    image: "/assets/amaal.jpeg",
     bio: "The queen of Bollywood stage performances is coming to set the stage on fire."
   },
   {
@@ -101,7 +101,7 @@ export const artists = [
     type: "Electronic Producer",
     performing: "EDM Night",
     highlight: true,
-    image: "src/assets/ashish.jpeg",
+    image: "/assets/ashish.jpeg",
     bio: "India's bass king will be dropping the heaviest beats of the year."
   },
   {
@@ -110,7 +110,7 @@ export const artists = [
     type: "Standup Comic",
     performing: "Comedy Show",
     highlight: false,
-    image: "src/assets/solanki.jpeg"
+    image: "/assets/solanki.jpeg"
   },
   {
     id: 4,
@@ -118,17 +118,17 @@ export const artists = [
     type: "Indie Rock Band",
     performing: "Spandan Headline",
     highlight: false,
-    image: "src/assets/amanraj.jpeg"
+    image: "/assets/amanraj.jpeg"
   }
 ];
 
 export const galleryPhotos = [
-  { id: 1, src: "src/assets/amaal2.jpeg", caption: "Crowd at Ignus '24", fest: "IGNUS" },
-  { id: 2, src: "src/assets/ashish.jpeg", caption: "Main Stage Setup", fest: "VORTEX" },
-  { id: 3, src: " src/assets/amanraj.jpeg", caption: "Night Concert", fest: "IGNUS" },
-  { id: 4, src: "src/assets/band2.jpeg", caption: "Dance Performance", fest: "SPANDAN" },
-  { id: 5, src: "src/assets/band3.jpeg", caption: "Tech Expo", fest: "VORTEX" },
-  { id: 6, src: "src/assets/solanki.jpeg", caption: "Football Finals", fest: "IGNUS" }
+  { id: 1, src: "/assets/amaal2.jpeg", caption: "Crowd at Ignus '24", fest: "IGNUS" },
+  { id: 2, src: "/assets/ashish.jpeg", caption: "Main Stage Setup", fest: "VORTEX" },
+  { id: 3, src: " /assets/amanraj.jpeg", caption: "Night Concert", fest: "IGNUS" },
+  { id: 4, src: "/assets/band2.jpeg", caption: "Dance Performance", fest: "SPANDAN" },
+  { id: 5, src: "/assets/band3.jpeg", caption: "Tech Expo", fest: "VORTEX" },
+  { id: 6, src: "/assets/solanki.jpeg", caption: "Football Finals", fest: "IGNUS" }
 ];
 
 export const leaderboard = [

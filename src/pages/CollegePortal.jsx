@@ -13,27 +13,27 @@ import { stats, fests, allEvents, artists, galleryPhotos, leaderboard, deptLeade
 const SLIDE_DURATION = 4500;
 const slides = [
   {
-    image: "src/assets/amaal.jpeg",
+    image: "/assets/amaal.jpeg",
     label: "Cultural Fest", fest: "NEXUS FEST 2026", title: "Where Every\nTalent Shines", date: "Sep 15–17", tag: "🎭 Cultural", accent: "#811811",
   },
   {
-    image: "src/assets/amaal1.jpeg",
+    image: "/assets/amaal1.jpeg",
     label: "DJ Night", fest: "NEXUS FEST 2026", title: "Feel The\nBeat Drop", date: "Sep 15 · Night Show", tag: "🎧 Music", accent: "#5a1060",
   },
   {
-    image: "src/assets/ashish.jpeg",
+    image: "/assets/ashish.jpeg",
     label: "Live Performance", fest: "NEXUS FEST 2026", title: "Live Music\nUnleashed", date: "Sep 16 · Headline Act", tag: "🎤 Performance", accent: "#811811",
   },
   {
-    image: "src/assets/azhar.jpeg",
+    image: "/assets/azhar.jpeg",
     label: "Hackathon", fest: "TECHSPIRE 2026", title: "Code. Create.\nConquer.", date: "Oct 5–6", tag: "💻 Technical", accent: "#0d3a6b",
   },
   {
-    image: "src/assets/band.jpeg",
+    image: "/assets/band.jpeg",
     label: "Sports Day", fest: "SPORTS ZEAL 2026", title: "Sweat. Compete.\nDominate.", date: "Nov 10–12", tag: "🏃 Sports", accent: "#0d4a1a",
   },
   {
-    image: "src/assets/band2.jpeg",
+    image: "/assets/band2.jpeg",
     label: "Campus Life", fest: "CAMPUS PULSE", title: "Your Story\nStarts Here", date: "Year Round", tag: "📸 Gallery", accent: "#811811",
   },
 ];
@@ -199,11 +199,11 @@ function FestsSection() {
   const [tappedIdx, setTappedIdx] = useState(null);
 
   const displayFests = [
-    { id: "p1", name: "Nexus", isPlaceholder: true, image: "src/assets/ashish.jpeg" },
-    { id: "p2", name: "Pulse", isPlaceholder: true, image: "src/assets/amaal.jpeg" },
+    { id: "p1", name: "Nexus", isPlaceholder: true, image: "/assets/ashish.jpeg" },
+    { id: "p2", name: "Pulse", isPlaceholder: true, image: "/assets/amaal.jpeg" },
     ...fests,
-    { id: "p3", name: "Vibe", isPlaceholder: true, image: "src/assets/solanki.jpeg" },
-    { id: "p4", name: "Spark", isPlaceholder: true, image: "src/assets/amaal1.jpeg" },
+    { id: "p3", name: "Vibe", isPlaceholder: true, image: "/assets/solanki.jpeg" },
+    { id: "p4", name: "Spark", isPlaceholder: true, image: "/assets/amaal1.jpeg" },
   ];
 
   const handleCardClick = (i, fest) => {
@@ -761,7 +761,7 @@ export default function CollegePortal() {
       <EventsSection />
       <ArtistsSection />
       <GallerySection />
-      <LeaderboardSection />
+      {/* <LeaderboardSection /> */}
       <AboutSection />
       <PortalFooter />
     </div>
